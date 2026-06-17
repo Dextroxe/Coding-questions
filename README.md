@@ -11,8 +11,8 @@ This repository documents the ETL and architecture work completed as part of a d
 - `section3_qa.md` — notes and questions for section 3 practical.
 
 ## Tools and Assumptions
-- Databricks Community Edition (free) is used for the notebook environment.
-- Draw.io was used to create the architecture diagram (`arch.png`).
+- Databricks Community Edition (free) is used for the notebook environment. Access was via https://community.cloud.databricks.com/login.html.
+- Draw.io was used to create the architecture diagram (`arch.png`). The tool is available at https://www.drawio.com/.
 - https://dbdiagram.io/ was used to create and document the MongoDB collection diagram (`mongodbCollection.png`).
 - Serverless compute is used in Databricks Community Edition, so the project relies on MongoDB rather than Spark Maven integration for MongoDB.
 - Secrets are not used due to limitations of the free Databricks Community Edition.
